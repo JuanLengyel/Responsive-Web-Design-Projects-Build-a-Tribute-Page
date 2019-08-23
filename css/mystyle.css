@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+#main {
+    background-image: url("../resources/backgroundPattern.png");
+    background-repeat: space;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#img-div {
+    background-color: rgb(226, 226, 226);
+    margin: 8px;
+    padding: 1%;
+    border-radius: 3%;
+}
+
+#image {
+    object-fit: contain;
+    width: 80%;
+    height: 80%;
+    border-radius: 3%;
+}
+
+#img-caption {
+    font-size: 10px;
+}
+
+#tribute-info {
+    padding: 10px;
+}
+
+q {
+    font-style: italic;
+    font-weight: 700;
+    transition: all 1s ease-in-out;
+}
+
+q:hover {
+    text-shadow: 6px 6px silver;
+}
